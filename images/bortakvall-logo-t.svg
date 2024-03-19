@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Lager_1" data-name="Lager 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 160px;
+        font-variation-settings: 'wght' 900;
+      }
+
+      .cls-1, .cls-2 {
+        font-family: SatoshiVariable-Bold, 'Satoshi Variable';
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        letter-spacing: .01em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #e93dad;
+      }
+
+      .cls-5 {
+        fill: #ffcd00;
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #3eabd9;
+      }
+
+      .cls-6, .cls-7 {
+        letter-spacing: .02em;
+      }
+
+      .cls-7, .cls-8, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-8, .cls-9 {
+        letter-spacing: .01em;
+      }
+
+      .cls-10 {
+        fill: #77d449;
+        letter-spacing: -.1em;
+      }
+
+      .cls-2 {
+        font-size: 90px;
+        font-variation-settings: 'wght' 700;
+        letter-spacing: .01em;
+      }
+
+      .cls-9 {
+        fill: #fe671e;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(50.12 187.14)"><tspan class="cls-9" x="0" y="0">B</tspan><tspan class="cls-8" x="108.8" y="0">O</tspan><tspan class="cls-5" x="238.72" y="0">R</tspan><tspan class="cls-4" x="349.6" y="0">T</tspan><tspan class="cls-6" x="441.12" y="0">A</tspan><tspan class="cls-7" x="556" y="0">K</tspan><tspan class="cls-10" x="671.84" y="0">V</tspan><tspan class="cls-7" x="773.6" y="0">Ä</tspan><tspan class="cls-3" x="888.47" y="0">L</tspan><tspan class="cls-6" x="979.83" y="0">L</tspan></text>
+  <text class="cls-2" transform="translate(1099.78 111.83)"><tspan x="0" y="0">®</tspan></text>
+</svg>

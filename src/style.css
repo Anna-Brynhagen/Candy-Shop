@@ -1,0 +1,366 @@
+#formContainer {
+  background-color: black;
+  padding: 30px;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  border: 1px solid black !important;
+}
+#estiContainer {
+  background-color: rgb(102, 161, 193);
+  color: #263361;
+}
+#estiContainer h2 {
+  color: #263361;
+  font-size: 25px;
+}
+#estiContainer strong {
+  font-size: 20px;
+}
+#kassa {
+  font-size: 50px;
+}
+#kassaK {
+  color: #d9de47;
+}
+#kassaA {
+  color: #d14ac8;
+}
+#kassaS {
+  color: rgb(108, 182, 206);
+}
+#kassaAA {
+  color: rgb(138, 212, 26);
+}
+#kassaVara {
+  font-size: 17px;
+  color: rgb(188, 233, 234);
+}
+#varukorgBtn {
+  background-color: rgb(222, 94, 8);
+  border: none;
+}
+#orderBtn {
+  background-color: rgb(138, 212, 26);
+  border: none;
+  color: #000000;
+}
+
+header {
+  background-color: black;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.cartBtn {
+  background-color: #ff4c60;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 24px;
+  min-width: fit-content;
+  white-space: nowrap;
+}
+
+.cartBtn:hover {
+  background-color: #e64c5e;
+  color: #ffffff;
+}
+
+.cartBtn svg {
+  vertical-align: top;
+}
+
+footer {
+  display: block;
+  background-color: #000000;
+  box-sizing: border-box;
+}
+
+footer .row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .list-style {
+  list-style: none;
+  text-align: center;
+  padding-left: 0;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+
+footer li {
+  margin: 1rem 0;
+}
+
+footer h3 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+}
+
+footer a:hover {
+  color: #ebebeb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#om {
+  color: #fc6719;
+  padding-bottom: 2rem;
+}
+
+#butiker {
+  color: #6bcaba;
+  padding-bottom: 2rem;
+}
+
+#kundklubb {
+  color: #ffcb14;
+  padding-bottom: 2rem;
+}
+
+#follow {
+  color: #ff5570;
+  padding-bottom: 2rem;
+}
+
+#text-info {
+  text-align: center;
+  color: #ffffff;
+}
+#modal::backdrop {
+  backdrop-filter: blur(5px);
+}
+#modal {
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.infoButton {
+  text-decoration: none;
+  color: inherit;
+  outline: none;
+}
+.infoButton:hover {
+  text-decoration: none;
+  color: #d14ac8;
+}
+.placeInCartButton {
+  width: 50%;
+  border: solid 1px #b56011;
+  color: #e0740e;
+  background-color: #fff;
+}
+
+.placeInCartButton:hover {
+  background-color: #ffdbfd;
+}
+.card-img-top {
+  padding: 15px;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  max-width: 280px;
+}
+.card-title {
+  font-family: "Lato", sans-serif;
+  color: #3d519a;
+}
+body {
+  background-image: url("../images/bakground.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+}
+#itemCount {
+  text-align: center;
+  color: #ebebeb;
+  font-size: 15px;
+  margin: 10px 0 0 1px;
+  font-family: "Lato", sans-serif;
+}
+#infoContainer {
+  max-width: 350px;
+}
+#navbar-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latofont {
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+}
+
+.cartTab {
+  background-color: #ffffff;
+  color: #000000;
+  position: fixed;
+  inset: 0 -500px 0 auto;
+  display: grid;
+  grid-template-rows: 70px 1fr 70px;
+  padding: 20px 20px 20px 20px;
+}
+
+.totalSum {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+body.showCart .cartTab {
+  inset: 0 0 0 auto;
+}
+
+.cartTab h2 {
+  text-align: center;
+}
+
+.checkoutBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#kassaBtn {
+  width: 100%;
+  min-width: 300px;
+  height: 60px;
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  transition: background-color 0.3s ease;
+}
+#kassaBtn:hover {
+  background-color: #282525;
+}
+
+.cartTab .listCart .item img {
+  max-width: 50px;
+}
+
+.cartTab .listCart .item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.containerQtyTrash {
+  display: flex;
+  align-items: center;
+}
+
+.containerImgPrice {
+  display: flex;
+  align-items: center;
+}
+
+.antal {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.listCart {
+  overflow: auto;
+}
+
+.trashbin svg {
+  margin-bottom: 3px;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s;
+}
+
+.trashbin svg:hover {
+  transform: scale(1.1);
+}
+
+#closeCartBtn {
+  width: 100%;
+  height: 60px;
+  border: none;
+  margin-top: 8px;
+  background-color: #ffcc14;
+  color: #020517;
+  transition: background-color 0.3s ease;
+}
+#closeCartBtn:hover {
+  background-color: #f59210;
+}
+
+#store-items-list {
+  padding-left: 0 !important;
+}
+.listCart .antal span {
+  color: #fff;
+  background-color: #29355f;
+  padding: 1px 7px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.produktnamn {
+  font-size: 15px;
+  color: #333;
+  margin-left: 10px;
+}
+.totaltPris {
+  font-size: 13px;
+  color: #333;
+  margin-left: 10px;
+}
+#varukorg {
+  background-color: #f5f5fb;
+  color: #333;
+}
+.cart-item-image {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 480px) {
+  .produktnamn {
+    font-size: 18px;
+    margin-left: 10px;
+  }
+  .totaltPris {
+    font-size: 15px;
+    margin-left: 10px;
+  }
+  .listCart .antal span {
+    padding: 4px 9px;
+    font-size: 16px;
+  }
+}
